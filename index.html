@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infrastructure in Chinatown</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=Pinyon+Script&family=Prata&family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="title-container">
+    <h1>Investment Infrastructure in Chinatown</h1>
+  </div>
+
+<div class="buttons">
+  <button id="m9" class="button" onclick="startAnimation('m9')">M9</button>
+  <button id="m14a" class="button" onclick="startAnimation('m14a')">M14A SBS</button>
+  <button id="m15" class="button" onclick="startAnimation('m15')">M15 Local</button>
+  <button id="m15s" class="button" onclick="startAnimation('m15s')">M15 SBS</button>
+  <button id="m22" class="button" onclick="startAnimation('m22')">M22</button>
+  <button id="m55" class="button" onclick="startAnimation('m55')">M55</button>
+  <button id="m103" class="button" onclick="startAnimation('m103')">M103</button>
+  <button id="all" class="button" onclick="startAnimation('all')">All</button>
+</div>
+
+<div class="black-canvas"></div>
+
+<!-- Insert Animation Here!  -->
+<div id="animationContainer" class="animation-container">
+  <img id="gifAnimation" src="gif/m9.gif" alt="M9 Animation" style="display: none;">
+  <img id="gifAnimation" src="gif/m14a.gif" alt="M14a Animation" style="display: none;">
+  <img id="gifAnimation" src="gif/m15.gif" alt="M15 Animation" style="display: none;">
+  <img id="gifAnimation" src="gif/m15s.gif" alt="M15s Animation" style="display: none;">
+  <img id="gifAnimation" src="gif/m22.gif" alt="M22 Animation" style="display: none;">
+  <img id="gifAnimation" src="gif/m55.gif" alt="M55 Animation" style="display: none;">
+  <img id="gifAnimation" src="gif/m103.gif" alt="M103 Animation" style="display: none;">
+  <img id="gifAnimation" src="gif/all.gif" alt="all Animation" style="display: none;">
+</div>
+
+<div class="rectangle" id="rectangle" style="background-color: #000000;">
+  <div id="rectangleText" class="rectangle-text"></div>
+</div>
+
+<p id="detailsParagraph" class="details-paragraph typewriter" style="display: none;">
+  While evaluating the investment infrastructure in New York City’s Chinatown,
+  it is crucial to consider the vast bus network that provides easy access to this lively neighborhood. The schematic representation of many bus lines merging in Chinatown represents a significant inflow of traffic, which includes locals, tourists, and other visitors. This significant quantity of bus usage, with lines such as M15 SBS and M14A SBS displaying exceptionally high figures, highlights Chinatown’s status as a dynamic center for trade and culture. A robust transportation infrastructure not only increases the district’s accessibility but also plays an essential role in strengthening local businesses and cultural sites.
+
+</p>
+
+<script src="script.js"></script>
+</body>
+</html>
